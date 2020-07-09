@@ -26,8 +26,9 @@ endef
 # SUBDIR_NAME is just the directory name itself
 # TAG is the git tag or branch to checkout
 # Projects will be started in this order
+# git@github.com:/reactioncommerce/reaction-hydra.git,reaction-hydra,v2.7.0 \
+
 define SUBPROJECT_REPOS
-git@github.com:/reactioncommerce/reaction-hydra.git,reaction-hydra,v2.7.0 \
 git@github.com:/reactioncommerce/reaction.git,reaction,v2.7.0 \
 git@github.com:/reactioncommerce/example-storefront.git,example-storefront,v2.7.0
 endef
